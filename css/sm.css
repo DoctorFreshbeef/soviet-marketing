@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-mrt-2018, 20:51:42
+    Author     : robzeeman
+*/
+body{
+background-color: #000;
+margin:0;
+padding:0;
+}
+
+body:after
+{
+content: url("../img/img2.png") url("../img/img3.png") url("../img/img4.png") url("../img/img5.png") url("../img/img6.png") url("../img/img7.png") url("../img/img8.png") url("../img/img9.png") url("../img/img10.png") url("../img/img11.png") url("../img/img12.png") url("../img/img13.png") url("../img/img14.png") url("../img/img15.png") url("../img/img16.png") url("../img/img17.png") url("../img/img18.png") url("../img/img19.png") url("../img/img20.png") url("../img/img21.png") url("../img/img22.png") url("../img/img23.png") url("../img/img24.png") url("../img/img25.png") url("../img/img26.png") url("../img/img27.png") url("../img/img28.png") url("../img/img29.png") url("../img/img30.png") ;
+display: none;
+}
+
+#imgViewer{
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#frame{
+max-width: 100%;
+    height: auto;
+}
+
