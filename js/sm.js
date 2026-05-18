@@ -13,7 +13,7 @@ function next() {
         $("#frame").fadeOut(4000, function () {
             $("#frame").attr("src", "img/img" + i + ".png");
             $("#frame").fadeIn(5000);
-            setTimeout( next, 6000);
+            setTimeout( next, 10000);
         });
     }else{
         setTimeout(fade, 500);
